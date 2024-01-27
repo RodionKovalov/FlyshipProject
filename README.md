@@ -3,7 +3,7 @@ Developed with Unreal Engine 4
 
 The project implements realistic aircraft movements with convenient adjustment of physical properties.
 
-Input:
+##Input:
 W/S - pitch;
 A/D - yaw;
 Mouse X - roll;
@@ -13,7 +13,7 @@ C - free camera;
 V - camera change;
 Q - pause;
 
-Adjustment:
+##Adjustment:
 In FlyComponent the main settings for maximum speed and acceleration of the aircraft. 
 
 <div id="header" align="center">
@@ -41,3 +41,5 @@ Each wheel can be customized individually.
   <img src="/Photos/Wheels_2.png""/>
 </div>
 
+Since the lift coefficient is calculated using real experiments and the process of creating a mathematical model is very complex, the code for calculating the lift coefficient was taken from here:
+https://ieeexplore.ieee.org/document/7152411
