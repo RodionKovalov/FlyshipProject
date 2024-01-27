@@ -1,5 +1,5 @@
 # FlyshipProject
-Developed with Unreal Engine 4
+Developed with Unreal Engine 4.27
 
 The project implements realistic aircraft movements with convenient adjustment of physical properties.
 
@@ -7,14 +7,14 @@ Since the lift coefficient is calculated using real experiments and the process 
 https://ieeexplore.ieee.org/document/7152411
 
 ## Input:
-W/S - pitch;
-A/D - yaw;
-Mouse X - roll;
-Space - flaps;
-Shift - thrus;
-C - free camera;
-V - camera change;
-Q - pause;
+- W/S: pitch
+- A/D: yaw
+- Mouse X: roll
+- Space: flaps
+- Shift: thrus
+- C: free camera
+- V: camera change
+- Q: pause
 
 ## Adjustment:
 In FlyComponent the main settings for maximum speed and acceleration of the aircraft. 
