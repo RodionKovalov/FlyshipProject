@@ -24,7 +24,7 @@ In FlyMovementComponent the main settings for maximum speed and acceleration of 
   <img src="/Photos/FlyComponentSettings.png"/>
 </div>
 
-The required number of components of aircraft parts is added to the actor; the settings for each aircraft are individual.
+The required number of components of aircraft parts is added to the actor. The settings for each aircraft are individual.
 The location of aircraft parts is important.
 
 <div id="header" align="center">
