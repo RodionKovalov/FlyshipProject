@@ -4,20 +4,20 @@ Developed with Unreal Engine 4
 The project implements realistic aircraft movements with convenient adjustment of physical properties.
 
 Input:
-W/S - pitch
-A/D - yaw
-Mouse X - roll
-Space - flaps
-Shift - thrus
-C - free camera
-V - camera change
-Q - pause
+W/S - pitch;
+A/D - yaw;
+Mouse X - roll;
+Space - flaps;
+Shift - thrus;
+C - free camera;
+V - camera change;
+Q - pause;
 
 Adjustment:
 In FlyComponent the main settings for maximum speed and acceleration of the aircraft. 
 
 <div id="header" align="center">
-  <img src="photos/FlyComponentSettings.png" width="100"/>
+  <img src="/Photos/FlyComponentSettings.png"/>
 </div>
 
 The required number of components of aircraft parts is added to the actor; the settings for each aircraft are individual.
