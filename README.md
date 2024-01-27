@@ -23,7 +23,7 @@ In FlyComponent the main settings for maximum speed and acceleration of the airc
 The required number of components of aircraft parts is added to the actor; the settings for each aircraft are individual.
 
 <div id="header" align="center">
-  <img src="https://github.com/RodionKovalov/FlyshipProject/Photos/SurfaceWind.png" width="100"/>
+  <img src="/Photos/SurfaceWind.png" width="100"/>
 </div>
 
 The required number of wheels with the names of the model bones is added to the array of component wheels.
