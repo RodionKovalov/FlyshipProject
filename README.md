@@ -29,15 +29,15 @@ The required number of components of aircraft parts is added to the actor; the s
 The required number of wheels with the names of the model bones is added to the array of component wheels.
 
 <div id="header" align="center">
-  <img src="/Photos/Wheels.png" width="100"/>
+  <img src="/Photos/Wheels.png""/>
 </div>
 
 Each wheel can be customized individually.
 
 <div id="header" align="center">
-  <img src="/Photos/Wheels_1.png" width="100"/>
+  <img src="/Photos/Wheels_1.png""/>
 </div>
 <div id="header" align="center">
-  <img src="/Photos/Wheels_2.png" width="100"/>
+  <img src="/Photos/Wheels_2.png""/>
 </div>
 
