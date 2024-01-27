@@ -3,7 +3,7 @@ Developed with Unreal Engine 4
 
 The project implements realistic aircraft movements with convenient adjustment of physical properties.
 
-##Input:
+## Input:
 W/S - pitch;
 A/D - yaw;
 Mouse X - roll;
@@ -13,7 +13,7 @@ C - free camera;
 V - camera change;
 Q - pause;
 
-##Adjustment:
+## Adjustment:
 In FlyComponent the main settings for maximum speed and acceleration of the aircraft. 
 
 <div id="header" align="center">
