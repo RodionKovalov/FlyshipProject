@@ -3,27 +3,29 @@ Developed with Unreal Engine 4.27
 
 The project implements realistic aircraft movements with convenient adjustment of physical properties.
 
-Since the lift coefficient is calculated using real experiments and the process of creating a mathematical model is very complex, the code for calculating the lift coefficient was taken from here:
-https://ieeexplore.ieee.org/document/7152411
+> [!NOTE]
+> Since the lift coefficient is calculated using real experiments and the process of creating a mathematical model is very complex, the code for calculating the lift coefficient was taken from here:
+> https://ieeexplore.ieee.org/document/7152411
 
 ## Input:
 - W/S: pitch
 - A/D: yaw
 - Mouse X: roll
 - Space: flaps
-- Shift: thrus
+- Shift: thrust
 - C: free camera
 - V: camera change
 - Q: pause
 
 ## Adjustment:
-In FlyComponent the main settings for maximum speed and acceleration of the aircraft. 
+In FlyMovementComponent the main settings for maximum speed and acceleration of the aircraft. 
 
 <div id="header" align="center">
   <img src="/Photos/FlyComponentSettings.png"/>
 </div>
 
 The required number of components of aircraft parts is added to the actor; the settings for each aircraft are individual.
+The location of aircraft parts is important.
 
 <div id="header" align="center">
   <img src="/Photos/SurfaceWind.png""/>
