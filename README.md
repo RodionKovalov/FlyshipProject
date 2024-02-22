@@ -2,7 +2,7 @@
 <div id="header" align="center">
   <img src="/Photos/Preview.png"/>
 </div>
-## Overview
+## Overview:
 The project implements realistic aircraft movements with convenient adjustment of physical properties.
 Developed with Unreal Engine 4.27
 
