@@ -58,8 +58,6 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	void SetParam(UMeshComponent* _mesh, float _airDensity);
-	UFUNCTION(BlueprintCallable, unreliable, server)
-		void ServerUpdateState(float angleAxis);
 	FBiVector CalculateForces(FVector worldAirVelocity, float airDensity, FVector relativePosition);
 	float FlapEffectivnessCorrection(float flapAngle);
 	float LiftCoefficientMaxFraction(float flapFraction);
@@ -91,10 +89,10 @@ protected:
 		AActor* Owner;
 	UPROPERTY(BlueprintReadWrite)
 		AController* Controller;
-	float AngleAxis = 0.0f;
+	float AngleAxis;
 public:
 	UPROPERTY(BlueprintReadWrite)
-		float FlapAngle = 0.f;
+		float FlapAngle;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FConfig Config;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -102,9 +100,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool IsControlSurface;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float InputMultiplyer = 1;
+		float InputMultiplyer;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-		bool ShowDEBUG = false;
+		bool ShowDEBUG;
 
 };
 

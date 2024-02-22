@@ -1,7 +1,10 @@
 # FlyshipProject
-Developed with Unreal Engine 4.27
-
+##Overview
+<div id="header" align="center">
+  <img src="/Photos/Preview.png"/>
+</div>
 The project implements realistic aircraft movements with convenient adjustment of physical properties.
+Developed with Unreal Engine 4.27
 
 > [!NOTE]
 > Since the lift coefficient is calculated using real experiments and the process of creating a mathematical model is very complex, the code for calculating the lift coefficient was taken from here:

@@ -38,7 +38,6 @@ FHitResult UWheel::RayCast(UMeshComponent* mesh, FName bonename, float raylength
 	FCollisionQueryParams TraceParams;
 	TraceParams.AddIgnoredActor(owner);
 	World->LineTraceSingleByChannel(HitResult, StartLocation, EndLocation, ECollisionChannel::ECC_Visibility, TraceParams);
-	DrawDebugLine(World, StartLocation, EndLocation, FColor::Red, false);
 	return HitResult;
 }
 
